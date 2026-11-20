@@ -1,0 +1,12 @@
+# Toybox Blitz — app-ads.txt Şablonu (M5 AdMob Yayını İçin)
+#
+# ÖNEMLİ KURAL:
+# Google AdMob, app-ads.txt dosyasını alt klasörde (/toybox-blitz/app-ads.txt) DEĞİL,
+# Google Play geliştirici web sitenizin KÖK adresinde arar:
+#   Örnek 1 (Ücretsiz GitHub Sayfası): https://terzilabs.github.io/app-ads.txt
+#   Örnek 2 (Özel Alan Adı):                     https://terzilabs.com/app-ads.txt
+#
+# AdMob hesabınızı açtıktan sonra Ayarlar -> Hesap Bilgileri altındaki
+# Yayıncı Kimliğinizi (pub-xxxxxxxxxxxxxxxx) aşağıdaki satıra yazıp başındaki '#' işaretini kaldırın:
+#
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

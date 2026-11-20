@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toybox Blitz — Gizlilik Politikası / Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #081029;
+      --card: #10204d;
+      --border: #2f57b8;
+      --gold: #ffd447;
+      --text: #eef4ff;
+      --muted: #b5caf7;
+      --warn: #ffe28a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at top, #132866 0%, var(--bg) 65%);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px 16px 48px;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 3px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 24px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.65rem;
+      color: var(--gold);
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 4px;
+    }
+    .lang-btns {
+      display: flex;
+      gap: 8px;
+    }
+    button {
+      cursor: pointer;
+      border: 2px solid var(--border);
+      background: #173073;
+      color: var(--text);
+      font-weight: 700;
+      padding: 8px 14px;
+      border-radius: 10px;
+    }
+    button.active {
+      background: var(--gold);
+      color: #161822;
+      border-color: #fff2b2;
+    }
+    h2 {
+      color: var(--gold);
+      font-size: 1.15rem;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #8ad4ff; }
+    .note {
+      background: rgba(8, 16, 41, 0.7);
+      border: 1px solid rgba(255, 212, 71, 0.4);
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .placeholder {
+      color: var(--warn);
+      font-weight: 700;
+    }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <h1>Toybox Blitz — Gizlilik Politikası / Privacy Policy</h1>
+        <div class="sub">Terzi Labs &bull; <code>com.terzilabs.toyboxblitz</code></div>
+      </div>
+      <div class="lang-btns" role="group" aria-label="Language">
+        <button id="btn-tr" class="active" type="button" onclick="setLang('tr', true)">Türkçe</button>
+        <button id="btn-en" type="button" onclick="setLang('en', true)">English</button>
+      </div>
+    </header>
+
+    <section id="sec-tr" lang="tr">
+      <h2>Gizlilik Politikası (Türkçe)</h2>
+      <p><strong>Son Güncelleme:</strong> 20 Kasım 2026</p>
+      <p>
+        Bu Gizlilik Politikası ve 6698 sayılı Kişisel Verilerin Korunması Kanunu (<strong>KVKK</strong>) Aydınlatma Metni,
+        <strong>Terzi Labs</strong> tarafından sunulan <strong>Toybox Blitz</strong> (<code>com.terzilabs.toyboxblitz</code>)
+        mobil oyunu için geçerlidir.
+      </p>
+
+      <h2>1. Veri Sorumlusu</h2>
+      <div class="note">
+        <strong>Ticari / Marka Adı:</strong> Terzi Labs<br />
+        <strong>Resmî Şirket / Şahıs İşletmesi Unvanı:</strong> Oltan Terzi (Şahıs İşletmesi — Ticari Marka: Terzi Labs)<br />
+        <strong>Adres:</strong> İstanbul, Türkiye<br />
+        <strong>Gizlilik ve Destek E-postası:</strong> <a href="mailto:terzilabs@gmail.com">terzilabs@gmail.com</a>
+      </div>
+
+      <h2>2. Oyun İlerlemesi, Yerel Kayıt ve Android Yedekleme</h2>
+      <p>
+        Oyun ilerlemeniz, oyun içi para birimleri, görevler, çıkartmalar, ayarlar ve satın alma doğrulama kayıtları
+        cihazınızda yerel olarak saklanır. Android yedekleme (Android Auto Backup) açıksa, Android oyun kaydınızın bir
+        kopyasını Google hesabınıza yedekleyebilir ve oyunu yeniden yüklediğinizde geri getirebilir. Geliştirici bu
+        Google yedeklerine erişemez ve bunları görüntüleyemez.
+      </p>
+
+      <h2>3. İşlenen Veri Türleri, Amaçları ve Hukuki Dayanakları</h2>
+      <ul>
+        <li>
+          <strong>Yerel Oyun Kaydı ve Satın Alma Doğrulaması (Cihaz İçi):</strong> Oyun ayarları, istatistikler ve
+          Google Play üzerinden yapılan satın alımlara ait ürün kimliği ile satın alma belirteçleri
+          (<code>processed_tokens</code>) cihazdaki kayıt dosyasında tutulur.
+          <br /><em>Amaç ve Hukuki Dayanak:</em> Oyunun çalıştırılması, aynı ödülün mükerrer verilmesinin önlenmesi ve
+          kalıcı satın alımların (ör. <em>Reklamları Kaldır</em>) geri yüklenmesi — <strong>Sözleşmenin kurulması ve ifası</strong>
+          (KVKK m.5/2-c, GDPR m.6/1-b).
+        </li>
+        <li>
+          <strong>Reklamlar ve Onay Yönetimi (Google AdMob &amp; UMP):</strong> Oyun içinde isteğe bağlı ödüllü reklamlar
+          sunmak için <strong>Google AdMob</strong> ve bölgesel yasalara (AEA, Birleşik Krallık, İsviçre vb.) uygun onay
+          yönetimi için <strong>Google User Messaging Platform (UMP)</strong> kullanılır. Seçtiğiniz tercihler ve SDK
+          ayarlarına bağlı olarak Android Reklam Kimliği (AAID), IP adresi ve IP’den türetilen yaklaşık konum, cihaz/uygulama
+          tanımlayıcıları, reklam/uygulama etkileşimleri ve performans/hata tanı verileri işlenebilir.
+          <br /><em>Amaç ve Hukuki Dayanak:</em> Kişiselleştirilmiş reklam sunumu için <strong>açık rıza</strong> (KVKK m.5/1,
+          GDPR m.6/1-a); kişiselleştirilmemiş reklam sunumu, sıklık sınırı, sahtekârlık önleme ve teknik güvenlik için
+          <strong>meşru menfaat</strong> (KVKK m.5/2-f, GDPR m.6/1-f). Onay ayarlarınızı oyun içindeki
+          <em>Ayarlar</em> veya <em>Dükkan</em> ekranındaki <strong>Gizlilik Tercihleri</strong> düğmesinden dilediğiniz zaman
+          güncelleyebilir veya geri çekebilirsiniz.
+        </li>
+        <li>
+          <strong>Uygulama İçi Satın Almalar (Google Play Billing):</strong> Ödeme işlemleri tamamen
+          <strong>Google Play Store</strong> üzerinden yürütülür. Kredi kartı veya banka bilgileriniz geliştiriciye ulaşmaz.
+          <br /><em>Hukuki Dayanak:</em> <strong>Sözleşmenin ifası</strong> ve ilgili mevzuattan doğan yükümlülükler.
+        </li>
+        <li>
+          <strong>Bu Web Sayfası (GitHub Pages):</strong> Gizlilik politikası sayfasını görüntülediğinizde barındırma
+          sağlayıcısı GitHub, güvenlik ve hizmet sürekliliği amacıyla ziyaretçi IP adreslerini günlükleyebilir.
+        </li>
+      </ul>
+
+      <h2>4. Üçüncü Taraf Hizmetler ve Yurt Dışına Veri Aktarımı</h2>
+      <p>
+        Oyunda reklam ve satın alma altyapısı için Google LLC (Google AdMob, Google UMP, Google Play Services)
+        hizmetleri kullanılmaktadır. Bu hizmetler kapsamında işlenen teknik veriler Türkiye ve Avrupa Ekonomik Alanı (AEA)
+        dışındaki sunuculara (ör. ABD) aktarılabilir ve bu ülkelerde işlenebilir. İlgili resmi politikalar:
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a></li>
+        <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google’ın İş Ortağı Siteler ve Uygulamalardaki Verileri Nasıl Kullandığı</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Reklam Teknolojileri ve Çerezler</a></li>
+        <li><a href="https://play.google.com/intl/tr/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play Hizmet Şartları</a></li>
+        <li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pages Dokümantasyonu</a></li>
+      </ul>
+
+      <h2>5. Saklama Süresi ve Verilerin Silinmesi</h2>
+      <ul>
+        <li><strong>Cihazdaki Kayıt:</strong> Uygulama cihazınızda yüklü kaldığı sürece saklanır. Android Ayarlar → Uygulamalar → Toybox Blitz → Depolama yolundan uygulama verilerini temizleyerek veya oyunu kaldırarak cihazdaki kaydı hemen silebilirsiniz.</li>
+        <li><strong>Google Yedeği:</strong> Android yedeklemesi açıksa yedeğiniz Google Hesabı ayarlarınız altındaki Cihaz Yedekleri bölümünden yönetilebilir veya silinebilir (Google yedeğini silmek cihazdaki diğer yedekleri de etkileyebilir).</li>
+        <li><strong>Reklam Kimliği (AAID):</strong> Android Ayarlar → Google → Reklamlar menüsünden reklam kimliğinizi sıfırlayabilir veya silebilirsiniz.</li>
+        <li><strong>Destek E-postaları:</strong> Bize e-posta ile ulaşırsanız yazışmalar talebiniz sonuçlanana kadar ve yasal zamanaşımı/saklama gereksinimleri çerçevesinde tutulur, ardından silinir.</li>
+      </ul>
+
+      <h2>6. Hedef Yaş Kitlesi (13+) ve Dijital Rıza Yaşı</h2>
+      <p>
+        Toybox Blitz, <strong>13 yaş ve üzeri</strong> oyuncular için tasarlanmıştır ve 13 yaşından küçük çocuklara
+        yönelik değildir. Avrupa Birliği ülkelerinde kişisel verilerin rıza ile işlenebilmesi için geçerli dijital rıza
+        yaşı ülkeye göre 13 ile 16 arasında değişebilmektedir. 13 yaşından küçük bir çocuğun oyunu kullandığını veya
+        bizimle e-posta paylaştığını fark eden ebeveynler/vasiler yukarıdaki iletişim e-postasından bizimle iletişime
+        geçebilir; tarafımıza ulaşan kayıtlar derhal silinir.
+      </p>
+
+      <h2>7. Haklarınız (KVKK Madde 11 &amp; GDPR)</h2>
+      <p>
+        Uygulanabilir mevzuat (KVKK m.11 ve AEA/BK için GDPR m.15–22) kapsamında; kişisel verilerinizin işlenip
+        işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme, işlemeyi kısıtlama, itiraz etme, veri taşınabilirliği
+        ve verdiğiniz rızayı dilediğiniz zaman geri çekme haklarına sahipsiniz. Taleplerinizi yukarıdaki gizlilik
+        e-posta adresimize iletebilirsiniz. Ayrıca Türkiye’de <strong>Kişisel Verileri Koruma Kurumu (KVKK Kurulu)</strong>’na
+        veya bulunduğunuz ülkedeki yetkili veri koruma denetim makamına şikâyette bulunma hakkınız saklıdır.
+      </p>
+
+      <h2>8. Politika Değişiklikleri</h2>
+      <p>
+        Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada yayımlanır ve sayfanın
+        üstündeki “Son Güncelleme” tarihi değiştirilir.
+      </p>
+    </section>
+
+    <section id="sec-en" lang="en" class="hidden">
+      <h2>Privacy Policy (English)</h2>
+      <p><strong>Last Updated:</strong> November 20, 2026</p>
+      <p>
+        This Privacy Policy explains how <strong>Terzi Labs</strong> handles information for the mobile game
+        <strong>Toybox Blitz</strong> (<code>com.terzilabs.toyboxblitz</code>), including disclosures under GDPR and
+        the Turkish Personal Data Protection Law (<strong>KVKK</strong>).
+      </p>
+
+      <h2>1. Data Controller</h2>
+      <div class="note">
+        <strong>Brand / Studio Name:</strong> Terzi Labs<br />
+        <strong>Legal Entity / Sole Proprietor Name:</strong> Oltan Terzi (Sole Proprietorship — Brand: Terzi Labs)<br />
+        <strong>Location / Address:</strong> Istanbul, Türkiye<br />
+        <strong>Privacy &amp; Support Email:</strong> <a href="mailto:terzilabs@gmail.com">terzilabs@gmail.com</a>
+      </div>
+
+      <h2>2. Game Progress, Local Storage &amp; Android Backup</h2>
+      <p>
+        Your game progress is stored on your device. If Android backup (Android Auto Backup) is enabled, Android may
+        back up a copy of your save to your Google Account and restore it when you reinstall the game. The developer
+        cannot access or view your Google Account backups.
+      </p>
+
+      <h2>3. Data Categories, Purposes &amp; Legal Bases</h2>
+      <ul>
+        <li>
+          <strong>Local Save &amp; Purchase Verification (On-Device):</strong> Progress, settings, statistics, and
+          Google Play purchase product IDs with purchase tokens (<code>processed_tokens</code>) are stored in the local
+          save file on your device.
+          <br /><em>Purpose &amp; Legal Basis:</em> Running the game, preventing duplicate reward delivery, and restoring
+          non-consumable purchases (e.g., <em>No Ads</em>) — <strong>Performance of a contract</strong> (GDPR Art. 6(1)(b),
+          KVKK Art. 5(2)(c)).
+        </li>
+        <li>
+          <strong>Advertising &amp; Consent Management (Google AdMob &amp; UMP):</strong> Toybox Blitz uses
+          <strong>Google AdMob</strong> for optional rewarded ads and <strong>Google User Messaging Platform (UMP)</strong>
+          to manage consent where required (such as EEA, UK, and Switzerland). Depending on your choices and SDK
+          configuration, Google AdMob may process the Android Advertising ID (AAID), IP address and coarse location
+          inferred from IP, device/app identifiers, ad/app interactions, and crash/performance diagnostics.
+          <br /><em>Purpose &amp; Legal Basis:</em> <strong>Consent</strong> (GDPR Art. 6(1)(a), KVKK Art. 5(1)) for
+          personalized ads; <strong>Legitimate interests</strong> (GDPR Art. 6(1)(f), KVKK Art. 5(2)(f)) for
+          non-personalized ads, frequency capping, fraud prevention, and diagnostics. You can review or withdraw your
+          consent choices anytime via the <strong>Privacy Options</strong> button in <em>Settings</em> or <em>Shop</em>.
+        </li>
+        <li>
+          <strong>In-App Purchases (Google Play Billing):</strong> All payments are processed by
+          <strong>Google Play Billing</strong>. Payment card details never reach the developer.
+          <br /><em>Legal Basis:</em> <strong>Performance of a contract</strong> and legal obligations.
+        </li>
+        <li>
+          <strong>This Policy Webpage (GitHub Pages):</strong> When you visit this page, GitHub may log visitor IP
+          addresses for security and operational reliability.
+        </li>
+      </ul>
+
+      <h2>4. Third-Party Services &amp; International Transfers</h2>
+      <p>
+        We rely on Google LLC services (Google AdMob, Google UMP, Google Play Services). Technical data processed by
+        these services may be transferred to and processed on servers outside Türkiye and the EEA (such as the United
+        States). Please review the applicable third-party policies:
+      </p>
+      <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google Uses Information from Sites or Apps That Use Its Services</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Technologies &amp; Cookies</a></li>
+        <li><a href="https://play.google.com/intl/en_us/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play Terms of Service</a></li>
+        <li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">GitHub Pages Documentation</a></li>
+      </ul>
+
+      <h2>5. Retention &amp; How to Delete Your Data</h2>
+      <ul>
+        <li><strong>On-Device Save:</strong> Retained on your device until you clear the app’s storage (Android Settings → Apps → Toybox Blitz → Storage → Clear Data) or uninstall the app.</li>
+        <li><strong>Google Backup:</strong> If enabled, backups can be managed or deleted in your Google Account device backup settings (deleting a device backup may affect other app backups on that device).</li>
+        <li><strong>Advertising ID (AAID):</strong> You can reset or delete your Android Advertising ID anytime in Android Settings → Google → Ads.</li>
+        <li><strong>Support Emails:</strong> Retained only as long as needed to resolve your request and comply with applicable legal obligations, then deleted.</li>
+      </ul>
+
+      <h2>6. Intended Audience (13+) &amp; Digital Consent Age</h2>
+      <p>
+        Toybox Blitz is intended for players aged <strong>13 and older</strong> and is not directed to children under 13.
+        In certain EEA member states, the digital age of consent for personalized data processing ranges between 13 and 16.
+        If you are a parent or guardian and believe a child under 13 has used the app or contacted us via email, please
+        write to our privacy contact above and we will promptly delete any email records we hold.
+      </p>
+
+      <h2>7. Your Rights (GDPR &amp; KVKK)</h2>
+      <p>
+        Subject to applicable law (GDPR Articles 15–22 and Turkish KVKK Article 11), you have the right to request
+        access, rectification, erasure, restriction of processing, objection, data portability, and withdrawal of consent.
+        You can exercise these rights by emailing our privacy contact above. You also have the right to lodge a
+        complaint with the Turkish Personal Data Protection Authority (<strong>KVKK</strong>) or your local EEA/UK
+        supervisory authority.
+      </p>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The latest version will always be posted on this page with
+        an updated “Last Updated” date at the top.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    function setLang(lang, updateHash) {
+      var tr = document.getElementById('sec-tr');
+      var en = document.getElementById('sec-en');
+      var bTr = document.getElementById('btn-tr');
+      var bEn = document.getElementById('btn-en');
+      if (lang === 'en') {
+        tr.classList.add('hidden');
+        en.classList.remove('hidden');
+        bTr.classList.remove('active');
+        bEn.classList.add('active');
+        document.documentElement.lang = 'en';
+        if (updateHash && window.location.hash !== '#en') {
+          history.replaceState(null, '', '#en');
+        }
+      } else {
+        en.classList.add('hidden');
+        tr.classList.remove('hidden');
+        bEn.classList.remove('active');
+        bTr.classList.add('active');
+        document.documentElement.lang = 'tr';
+        if (updateHash && window.location.hash !== '#tr') {
+          history.replaceState(null, '', '#tr');
+        }
+      }
+    }
+    (function initLang() {
+      var hash = (window.location.hash || '').toLowerCase();
+      var params = new URLSearchParams(window.location.search);
+      var qLang = (params.get('lang') || '').toLowerCase();
+      if (hash === '#en' || qLang === 'en') {
+        setLang('en', false);
+      } else {
+        setLang('tr', false);
+      }
+    })();
+  </script>
+</body>
+</html>
