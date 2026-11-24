@@ -109,7 +109,7 @@
 
     <section id="sec-tr" lang="tr">
       <h2>Gizlilik Politikası (Türkçe)</h2>
-      <p><strong>Son Güncelleme:</strong> 20 Kasım 2026</p>
+      <p><strong>Son Güncelleme:</strong> 24 Kasım 2026</p>
       <p>
         Bu Gizlilik Politikası ve 6698 sayılı Kişisel Verilerin Korunması Kanunu (<strong>KVKK</strong>) Aydınlatma Metni,
         <strong>Terzi Labs</strong> tarafından sunulan <strong>Toybox Blitz</strong> (<code>com.terzilabs.toyboxblitz</code>)
@@ -150,9 +150,14 @@
           tanımlayıcıları, reklam/uygulama etkileşimleri ve performans/hata tanı verileri işlenebilir.
           <br /><em>Amaç ve Hukuki Dayanak:</em> Kişiselleştirilmiş reklam sunumu için <strong>açık rıza</strong> (KVKK m.5/1,
           GDPR m.6/1-a); kişiselleştirilmemiş reklam sunumu, sıklık sınırı, sahtekârlık önleme ve teknik güvenlik için
-          <strong>meşru menfaat</strong> (KVKK m.5/2-f, GDPR m.6/1-f). Onay ayarlarınızı oyun içindeki
-          <em>Ayarlar</em> veya <em>Dükkan</em> ekranındaki <strong>Gizlilik Tercihleri</strong> düğmesinden dilediğiniz zaman
+          <strong>meşru menfaat</strong> (KVKK m.5/2-f, GDPR m.6/1-f). Bölgenizdeki UMP kuralları gerektirdiğinde oyun içindeki
+          <em>Ayarlar</em> ekranında sunulan <strong>Gizlilik Tercihleri</strong> düğmesinden onay ayarlarınızı dilediğiniz zaman
           güncelleyebilir veya geri çekebilirsiniz.
+        </li>
+        <li>
+          <strong>Yaş Grubu Doğrulaması (Yalnızca Cihaz İçi):</strong> Oyun içinde ilk açılışta reklam ve gizlilik ayarlarını
+          doğru uygulamak amacıyla yalnızca yaş grubu tercihi (<code>age_bracket</code>) cihazınızdaki yerel kayıt dosyasında
+          saklanır; doğum tarihi veya tam yıl saklanmaz.
         </li>
         <li>
           <strong>Uygulama İçi Satın Almalar (Google Play Billing):</strong> Ödeme işlemleri tamamen
@@ -160,14 +165,18 @@
           <br /><em>Hukuki Dayanak:</em> <strong>Sözleşmenin ifası</strong> ve ilgili mevzuattan doğan yükümlülükler.
         </li>
         <li>
-          <strong>Bu Web Sayfası (GitHub Pages):</strong> Gizlilik politikası sayfasını görüntülediğinizde barındırma
-          sağlayıcısı GitHub, güvenlik ve hizmet sürekliliği amacıyla ziyaretçi IP adreslerini günlükleyebilir.
+          <strong>Günlük Saat Doğrulaması &amp; Bu Web Sayfası (GitHub Pages / Google):</strong> Günlük ödüllerin doğru
+          takvim gününe göre çalışabilmesi için uygulama arka planda yalnızca standart HTTP tarih başlığını (<code>Date</code>)
+          okumak üzere GitHub Pages ve yedek olarak Google sunucularına hafif bir bağlantı isteği gönderir. Bu istek ve bu
+          sayfanın görüntülenmesi sırasında sunucu işleticileri (GitHub, Google) güvenlik ve bağlantı yönlendirme amacıyla
+          IP adresinizi görebilir; geliştirici bu ağ günlüklerine erişmez.
         </li>
       </ul>
 
       <h2>4. Üçüncü Taraf Hizmetler ve Yurt Dışına Veri Aktarımı</h2>
       <p>
-        Oyunda reklam ve satın alma altyapısı için Google LLC (Google AdMob, Google UMP, Google Play Services)
+        Oyunda reklam ve satın alma altyapısı için <strong>Google LLC</strong> (Google AdMob, Google UMP, Google Play Services),
+        günlük saat doğrulaması ile bu gizlilik sayfasının barındırılması için <strong>GitHub, Inc.</strong> (GitHub Pages)
         hizmetleri kullanılmaktadır. Bu hizmetler kapsamında işlenen teknik veriler Türkiye ve Avrupa Ekonomik Alanı (AEA)
         dışındaki sunuculara (ör. ABD) aktarılabilir ve bu ülkelerde işlenebilir. İlgili resmi politikalar:
       </p>
@@ -214,7 +223,7 @@
 
     <section id="sec-en" lang="en" class="hidden">
       <h2>Privacy Policy (English)</h2>
-      <p><strong>Last Updated:</strong> November 20, 2026</p>
+      <p><strong>Last Updated:</strong> November 24, 2026</p>
       <p>
         This Privacy Policy explains how <strong>Terzi Labs</strong> handles information for the mobile game
         <strong>Toybox Blitz</strong> (<code>com.terzilabs.toyboxblitz</code>), including disclosures under GDPR and
@@ -254,8 +263,14 @@
           inferred from IP, device/app identifiers, ad/app interactions, and crash/performance diagnostics.
           <br /><em>Purpose &amp; Legal Basis:</em> <strong>Consent</strong> (GDPR Art. 6(1)(a), KVKK Art. 5(1)) for
           personalized ads; <strong>Legitimate interests</strong> (GDPR Art. 6(1)(f), KVKK Art. 5(2)(f)) for
-          non-personalized ads, frequency capping, fraud prevention, and diagnostics. You can review or withdraw your
-          consent choices anytime via the <strong>Privacy Options</strong> button in <em>Settings</em> or <em>Shop</em>.
+          non-personalized ads, frequency capping, fraud prevention, and diagnostics. When required in your region under UMP
+          rules, you can review or withdraw your consent choices anytime via the <strong>Privacy Options</strong> button in
+          <em>Settings</em>.
+        </li>
+        <li>
+          <strong>Age Group Check (On-Device Only):</strong> To apply the proper ad and privacy rules before any ad SDK
+          starts, only a minimal age bracket (<code>age_bracket</code>) is stored locally on your device; your birth year or
+          exact birth date is discarded immediately and never saved or transmitted.
         </li>
         <li>
           <strong>In-App Purchases (Google Play Billing):</strong> All payments are processed by
@@ -263,16 +278,20 @@
           <br /><em>Legal Basis:</em> <strong>Performance of a contract</strong> and legal obligations.
         </li>
         <li>
-          <strong>This Policy Webpage (GitHub Pages):</strong> When you visit this page, GitHub may log visitor IP
-          addresses for security and operational reliability.
+          <strong>Daily Time Verification &amp; This Webpage (GitHub Pages / Google):</strong> To verify the current date
+          for daily rewards, the game sends a lightweight background HTTPS <code>HEAD</code> request to GitHub Pages and,
+          as a fallback, Google solely to read the standard HTTP <code>Date</code> header. During this request and when
+          you open this page, the hosting providers (GitHub, Google) may receive your IP address for routing and security;
+          the developer does not collect or store those logs.
         </li>
       </ul>
 
       <h2>4. Third-Party Services &amp; International Transfers</h2>
       <p>
-        We rely on Google LLC services (Google AdMob, Google UMP, Google Play Services). Technical data processed by
-        these services may be transferred to and processed on servers outside Türkiye and the EEA (such as the United
-        States). Please review the applicable third-party policies:
+        We rely on <strong>Google LLC</strong> (Google AdMob, Google UMP, Google Play Services) for advertising and
+        purchases, and <strong>GitHub, Inc.</strong> (GitHub Pages) for hosting this policy page and primary HTTP date
+        checks. Technical data processed by these services may be transferred to and processed on servers outside Türkiye
+        and the EEA (such as the United States). Please review the applicable third-party policies:
       </p>
       <ul>
         <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
